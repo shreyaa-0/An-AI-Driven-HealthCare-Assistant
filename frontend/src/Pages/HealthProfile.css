@@ -1,0 +1,44 @@
+body {
+  background-color: #ffffff;
+}
+
+.MuiPaper-root {
+  background-color: #ffffff;
+}
+
+.MuiAppBar-colorDefault {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.MuiTypography-h4 {
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.MuiAvatar-root {
+  border: none; /* Remove borders */
+}
+
+.MuiLinearProgress-barColorPrimary {
+  background-color: #4caf50;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  width: 330px;
+  height: 50px;
+}
+
+.MuiListItem-root {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.MuiTextField-root {
+  margin-bottom: 8px; /* Decrease gap between Age, Height, Weight fields */
+}
+
+.MuiGrid-item {
+  margin-bottom: 8px; /* Decrease gap between Age, Height, Weight fields */
+}

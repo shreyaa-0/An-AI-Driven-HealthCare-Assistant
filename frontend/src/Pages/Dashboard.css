@@ -1,0 +1,31 @@
+/* Dashboard.css */
+.card {
+    width: 100%;
+    max-width: 280px;
+    min-height: 120px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    max-width: 90px;
+    height: 100px;
+    margin-right: 16px;
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-action-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-text {
+    color: #000;
+  }
+  

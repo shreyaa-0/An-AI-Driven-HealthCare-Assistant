@@ -1,0 +1,146 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f4f4f4;
+  border-bottom: 0px solid #ccc;
+}
+
+.nav-logo a img {
+  height: 50px; /* Logo size */
+}
+
+.nav-center {
+  flex: 1; /* Allows this container to take up available space */
+  display: flex;
+  justify-content: flex-start; /* Align items to the start (left) */
+  margin-left: 50px; /* Adjust the value as needed to move items to the left */
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 70px; /* Adjust spacing between items */
+}
+
+.nav-menu li {
+  font-size: 18px; /* Font size */
+  font-weight: 600; /* Make menu items a little bolder */
+  position: relative; /* Needed for dropdown positioning */
+  cursor: pointer;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #000; /* Default text color */
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.nav-menu li a:hover {
+  color: grey; /* Text color on hover */
+}
+
+.arrow {
+  font-size: 12px; /* Size of the arrow */
+  margin-left: 5px; /* Space between text and arrow */
+  display: inline-flex; /* Ensures the arrow can be animated */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transitions for transform and color */
+  color: #666; /* Default arrow color */
+}
+
+.nav-menu li:hover .arrow {
+  transform: rotate(180deg); /* Rotate the arrow on hover */
+}
+
+.dropdown-menu {
+  opacity: 0; /* Hide dropdown by default */
+  visibility: hidden; /* Make it invisible */
+  position: absolute; /* Position dropdown menu */
+  top: 150%; /* Aligns dropdown below the parent item */
+  left: 0;
+  background-color: #fff;
+  border: 0.5px solid #ccc;
+  padding: 10px;
+  list-style: none;
+  margin: 0;
+  z-index: 10; /* Ensure dropdown is above other content */
+  width: 280px; /* Increased width of dropdown menu */
+  border-radius: 5px;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+  transform: translateY(
+    10px
+  ); /* Slightly move it down for smoother transition */
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  font-size: 18px; /* Font size for dropdown items */
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0; /* Shaded background on hover */
+}
+
+.dropdown-menu li a {
+  display: flex;
+  align-items: center; /* Align icon and text */
+  text-decoration: none;
+  color: #000; /* Color for links in the dropdown */
+}
+.dropdown-menu li a svg {
+  margin-right: 8px; /* Space between icon and text */
+}
+
+.nav-menu li:hover .dropdown-menu {
+  opacity: 1; /* Show dropdown */
+  visibility: visible; /* Make it visible */
+  transform: translateY(0); /* Reset translation */
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.login button {
+  font-size: 18px; /* Font size for buttons */
+  margin-right: 10px; /* Margin between buttons */
+  padding: 15px 17px; /* Padding for buttons */
+  border: none;
+  background-color: #db422b; /* Button color */
+  color: #fff; /* Text color */
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+  font-weight: 600;
+}
+
+.login button:first-child {
+  background-color: transparent; /* Transparent background for the first button */
+  color: black; /* Text color for the first button */
+}
+
+.login button:first-child:hover {
+  background-color: #db422b; /* Change background color on hover */
+  color: #fff; /* Text color on hover */
+}
+
+.login button:hover {
+  background-color: #bf3725; /* Darker shade for the button on hover */
+}
+
+.login button:first-child:hover {
+  background-color: transparent;
+  color: #bf3725; /* Change text color to red on hover */
+}
+
+.user-message {
+  color: blue;
+  text-align: right;
+}
+.bot-message {
+  color: green;
+  text-align: left;
+}

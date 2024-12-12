@@ -1,0 +1,51 @@
+.container {
+  padding: 16px;
+  background-color: #f4f4f4;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the header content */
+  margin-bottom: 16px;
+  text-align: center; /* Center text within the header */
+  flex-direction: column; /* Arrange items in a column */
+}
+
+.note {
+  margin-bottom: 16px;
+  text-align: center; /* Center the note text */
+}
+
+.formContainer {
+  background-color: white;
+  border-radius: 8px;
+  padding: 32px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.submitButton {
+  margin-top: 25px;
+  background-color: teal; /* Set button background color to teal */
+  color: white; /* Ensure text is visible on the teal background */
+  border: none; /* Remove default border if present */
+  padding: 10px 20px; /* Add padding for better appearance */
+  border-radius: 4px; /* Round button corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.submitButton:hover {
+  background-color: teal; /* Maintain teal color on hover */
+  /* Optionally, you can specify a slightly different color on hover */
+  /* background-color: darkcyan; */
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  width: 330px;
+  height: 70px;
+}

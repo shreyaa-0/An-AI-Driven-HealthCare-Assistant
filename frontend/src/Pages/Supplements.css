@@ -1,0 +1,53 @@
+.supplements-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.supplements-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.supplements-search {
+  width: 80%; /* Adjust the width as needed */
+  max-width: 600px; /* Optional: limit the maximum width */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto 20px; /* Center the search box and add space below */
+  display: block;
+}
+
+.supplements-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px; /* Space between items */
+  margin-top: 20px; /* Space between search bar and supplements */
+}
+
+.supplement-item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.supplement-item:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.supplement-item:active {
+  background-color: #e0e0e0;
+}

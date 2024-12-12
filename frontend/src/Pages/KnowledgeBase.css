@@ -1,0 +1,27 @@
+.knowledge-base-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .knowledge-base-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #eae8e8;
+  }
+  
+  .divider {
+    margin: 20px 0;
+  }
+  
+  .knowledge-accordion {
+    margin-bottom: 10px;
+  }
+  
+  .read-more-content {
+    margin-top: 10px;
+    color: #555;
+  }
+  

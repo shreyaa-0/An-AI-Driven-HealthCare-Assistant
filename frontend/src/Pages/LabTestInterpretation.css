@@ -1,0 +1,33 @@
+body {
+    background-color: #f5f5f5;
+  }
+  
+  .MuiPaper-root {
+    background-color: #ffffff;
+  }
+  
+  .MuiAppBar-colorDefault {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  .MuiTypography-h4 {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .MuiButton-containedPrimary {
+    background-color: #4caf50;
+  }
+  
+  .MuiListItem-root {
+    padding-left: 0;
+  }
+  
+  .MuiListItemText-primary {
+    font-weight: bold;
+  }
+  
+  .MuiListItemText-secondary {
+    color: #555;
+  }

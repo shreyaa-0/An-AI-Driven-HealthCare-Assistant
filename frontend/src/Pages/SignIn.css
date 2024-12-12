@@ -1,0 +1,119 @@
+/* SignIn.css */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 20px;
+  background-image: -moz-linear-gradient();
+}
+
+.signin-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+  color: #000;
+  width: 100%;
+  max-width: 400px;
+}
+
+.signin-logo {
+  width: 200px; /* Adjusted logo size */
+  height: auto;
+  margin-bottom: 0px; /* Adjusted gap between logo and header */
+}
+
+.signin-header {
+  color: #000;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.signin-form {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.signin-form .MuiTextField-root {
+  margin-bottom: -2px; /* Reduced spacing between input fields */
+}
+
+.signin-form .MuiTextField-root input {
+  color: #000; /* Text color for the input fields */
+}
+
+.signin-form .MuiTextField-root .MuiInputLabel-root {
+  color: #000; /* Label color */
+}
+
+.signin-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px; /* Gap between form and links */
+}
+
+.forgot-password {
+  color: teal !important; /* Teal color for the "Forgot password?" link */
+}
+
+.signin-button {
+  width: 200px;
+  color: #fff !important; /* White text color for the button */
+  background-color: teal !important; /* Teal background color for the button */
+  border-color: teal !important; /* Teal border color for the button */
+}
+
+.signin-footer, .signin-terms {
+  color: #000;
+  margin-top: 10px;
+}
+
+.signin-footer a {
+  color: teal; /* Teal color for links */
+  text-decoration: underline;
+}
+
+.signin-terms a {
+  color: black; /* Black color for links */
+  text-decoration: underline;
+}
+
+.signin-or {
+  margin: 20px 0;
+}
+
+.social-login {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between buttons */
+}
+
+.google-button, .facebook-button, .twitter-button {
+  color: #000 !important; /* Set button text color to black */
+  background-color: #fff !important; /* Set button background color to white */
+  border-color: #000 !important; /* Set button border color to black */
+  padding: 10px 0; /* Padding inside the buttons */
+}
+
+.google-button .MuiSvgIcon-root {
+  fill: #4285F4; /* Google Blue */
+}
+
+.facebook-button .MuiSvgIcon-root {
+  fill: #1877F2; /* Facebook logo color */
+}
+
+.twitter-button .MuiSvgIcon-root {
+  fill: #1DA1F2; /* Twitter logo color */
+}

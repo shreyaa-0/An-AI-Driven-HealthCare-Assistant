@@ -1,0 +1,82 @@
+/* SignUp.css */
+
+.main-container {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.signup-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 20px; /* Reduced gap for better spacing */
+  color: #000;
+  width: 100%;
+}
+
+
+
+.signup-header {
+  margin: 20px 0;
+  color: #000; /* Set header color to black */
+}
+
+.social-login {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between buttons */
+}
+
+.google-button, .facebook-button, .twitter-button {
+  color: #000 !important; /* Set button text color to black */
+  background-color: #fff !important; /* Set button background color to white */
+  border-color: #000 !important; /* Set button border color to black */
+  padding: 10px 0; /* Padding inside the buttons */
+}
+.google-button .MuiButton-startIcon svg {
+  fill: #4285F4; /* Google Blue */
+}
+
+.facebook-button .MuiButton-startIcon svg {
+  fill: #1877F2; /* Facebook Blue */
+}
+
+.twitter-button .MuiButton-startIcon svg {
+  fill: #1DA1F2; /* Twitter Blue */
+}
+
+
+.signup-footer, .signup-terms {
+  margin: 10px 0; /* Space between lines */
+  color: #000; /* Set text color to black */
+}
+
+.signup-footer a {
+  color: teal; /* Set link color to teal */
+  text-decoration: underline;
+}
+
+.signup-terms a {
+  color: #000; /* Set link color to black */
+  text-decoration: underline;
+}
+
+.signup-terms {
+  margin-top: 20px; /* Increased gap between "Already have an account?" and "By signing up..." */
+}
+.img {
+  display: block;
+  margin: auto auto;
+  width: 330px;
+  height: 70px;
+}

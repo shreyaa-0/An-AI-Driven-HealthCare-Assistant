@@ -1,0 +1,41 @@
+.container {
+    padding: 32px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 300vh;
+  }
+  
+  .title {
+    margin-bottom: 16px;
+    color: #0b0b0b;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .styled-list {
+    margin-bottom: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  .styled-list-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .add-button {
+    background-color: #2450b0;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .add-button:hover {
+    background-color: #001166;
+  }
+  

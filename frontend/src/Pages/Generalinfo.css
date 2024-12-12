@@ -1,0 +1,119 @@
+.header {
+    text-align: center;
+    margin-bottom: 0px;
+    color: black;
+}
+.header h1 {
+    color: black;
+}
+
+
+body {
+    min-height: 100vh;
+    background: url('https://t3.ftcdn.net/jpg/01/94/18/56/360_F_194185602_QHqiJRKuSBNFMDRltgNzOzDmxxKNj1lz.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    padding: 20px; /* Optional: Add padding if needed */
+    box-sizing: border-box;
+    margin: 0; /* Ensure there's no default margin on the body */
+}
+
+.container {
+    /* Make the container transparent */
+    background-color: rgba(255, 255, 255, 0); /* Fully transparent */
+    border-radius: 10px; /* Optional: Add rounded corners to the content box */
+    padding: 20px; /* Padding for the content inside */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for some depth */
+    width: 90%; /* Adjusted width to 90% of its container */
+    max-width: 1000px; /* Ensure it doesn't exceed this width */
+    margin: 10px auto; /* Center the container horizontally */
+}
+
+
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 4em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.header-logo {
+    max-width: 280px;
+}
+
+.card {
+    max-height: 700px; /* Increase this value to adjust the height */
+    overflow-y: auto; /* Ensure content that exceeds height is scrollable */
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 10px auto;
+    width: 90%; /* Adjusted width to 90% of its container */
+    max-width: 1000px; /* Ensure it doesn't exceed this width */
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+    transform-origin: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card.turn-page {
+    transform: rotateY(-180deg);
+    opacity: 0;
+}
+
+.options {
+    width: 100%;
+    text-align: center;
+    color: #007BFF;
+    size: 20px;
+}
+
+.options div {
+    margin: 10px 0;
+}
+
+.next-btn, .prev-btn {
+    background: linear-gradient(135deg, #007BFF, #00d2ff);
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.next-btn:hover, .prev-btn:hover {
+    background: linear-gradient(135deg, #00d2ff, #007BFF);
+    transform: scale(1.05);
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.message {
+    font-size: 1.5em;
+    color: #0c5f1f;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}

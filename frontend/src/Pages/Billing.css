@@ -1,0 +1,51 @@
+/* Ensure cards have the same height */
+.MuiCard-root {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Adjust height to be consistent */
+  }
+  
+  /* Adjust the card content padding */
+  .MuiCardContent-root {
+    flex: 1 0 auto; /* Allow content to grow and adjust its size */
+    padding-bottom: 10px; /* Remove padding to create space for the buttons */
+  }
+  
+  /* Style and adjust the button positioning */
+  .MuiCardActions-root {
+    display: flex;
+    justify-content: center;
+    padding: 0; /* Remove padding to move buttons up */
+    margin-top: 10px; /* Slightly adjust margin to move buttons up */
+  }
+  
+  /* Style for contained buttons */
+  .MuiButton-contained {
+    background-color: transparent !important; /* Transparent background */
+    color: teal !important; /* Teal text color */
+    border: 1px solid teal !important; /* Teal border */
+    border-radius: 4px !important; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+  }
+  
+  /* Hover effect for contained buttons */
+  .MuiButton-contained:hover {
+    background-color: #004d40 !important; /* Slightly darker teal color on hover */
+    color: white !important; /* Change text color to white on hover */
+    border-color: #004d40 !important; /* Darker teal border on hover */
+  }
+  
+  /* Style for outlined buttons */
+  .MuiButton-outlined {
+    color: teal !important; /* Teal text color */
+    border-color: transparent !important; /* Teal border color */
+    border-radius: 4px !important; /* Rounded corners */
+    transition: border-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+  }
+  
+  /* Hover effect for outlined buttons */
+  .MuiButton-outlined:hover {
+    border-color: transparent !important; /* Darker teal border on hover */
+    color: #004d40 !important; /* Darker teal text color on hover */
+  }
+  
